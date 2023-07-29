@@ -243,7 +243,7 @@
 
 
 .movie-list-container {
-  padding: 30px 30px;
+  padding: 50px 30px;
   background-color: rgb(238, 238, 238);
 }
 
@@ -462,8 +462,8 @@
 
 .movie-list-item-img {
   transition: all 1s ease-in-out;
-  width: 370px;
-  height: 300px;
+  width: 270px;
+  height: 420px;
   /* object-fit: none; */
   border-radius: 0px;
 }
@@ -478,6 +478,7 @@
 
 
 .movie-list-item-title {
+ 
   font-size: 25px;
   text-transform: uppercase;
   color: #ec3608;
@@ -490,6 +491,7 @@
   left: 0;
   right: 0;
   margin: 0 auto;
+  margin-top: 25px;
 }
 
 .movie-list-title-detailfirm {
@@ -538,8 +540,8 @@
   height: 50px;
   cursor: pointer;
   position: absolute;
-  top: 170px;
-  left: 150px;
+  top: 250px;
+  left: 100px;
   opacity: 0;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
@@ -555,8 +557,8 @@
   height: 50px;
   cursor: pointer;
   position: absolute;
-  top: 100px;
-  left: 150px;
+  top: 175px;
+  left: 100px;
   opacity: 0;
   text-transform: uppercase;
   text-decoration: none;
@@ -971,4 +973,20 @@ ul {
   font-size: 18px;
   font-weight: normal;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.movie-list-container h2 {
+  color: #000;
+}
+
+
+
+.profile-text a {
+  color: #000;
+}
+
+
+.profile-text a:hover {
+  color: red;
 }

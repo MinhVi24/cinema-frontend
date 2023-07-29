@@ -24,16 +24,16 @@
                 <div class="menu-container">
                     <ul class="menu-list">
                         <li class="menu-list-item active"><a href="index.html">Trang chủ</a></li>
-                        <li class="menu-list-item"><a href="#phim">Phim</a></li>
-                        <li class="menu-list-item"><a href="#khuyenmai">Khuyến Mãi </a></li>
-                        <li class="menu-list-item"><a href="#thongtin">Thông tin</a></li>
+                        <li class="menu-list-item"><a href="#">Phim</a></li>
+                        <li class="menu-list-item"><a href="#">Rạp</a></li>
+                        <li class="menu-list-item"><a href="#">Thông tin</a></li>
                     </ul>
                 </div>
                 <div class="profile-container">
                     <img class="profile-picture" src="img/marioavatar.png" alt="movie-detail.html">
                     <div class="profile-text-container">
-                        <span class="profile-text"><a class="menu-list-item" href="login.html">Login</a> </span>
-                       
+                        <span class="profile-text">Tài khoản</span>
+                        <i class="fas fa-caret-down"></i>
                     </div>
                     <div class="toggle">
                         <i class="fas fa-moon toggle-icon"></i>
@@ -52,196 +52,199 @@
             <i class="left-menu-icon fas fa-hourglass-start"></i>
             <i class="left-menu-icon fas fa-shopping-cart"></i>
         </div>
-
-        <div class="container-home ">
+        <div class="container-home">
             <div class="content-container">
-             
-                <div class="featured-content-banner">
-                    <span>Ra mắt</span>
-                    <h1>Spider-Man</h1>
-                    <p class="featured-desc">Sau cái chết bi thảm của người bạn gái cũ - Peter Parker (Warden Wayne)
-                        vẫn cảm thấy tội lỗi trong quá khứ,
-                        liệu lời nguyền của bản ngã thay đổi của anh ta có nên được chôn vùi mãi mãi hay không. </p>
-                    <button type="button" onclick="location.href='movie-detail-sm.html';" class="featured-button">Xem
-                        Ngay </button>
-                </div>
-            
+                <form action="movie-detail-sm.html">
+                    <div class="featured-content-banner">
+                        <span>Ra mắt</span>
+                        <h1>Spider-Man</h1>
+                        <p class="featured-desc">Sau cái chết bi thảm của người bạn gái cũ - Peter Parker (Warden Wayne)
+                            vẫn cảm thấy tội lỗi trong quá khứ,
+                            liệu lời nguyền của bản ngã thay đổi của anh ta có nên được chôn vùi mãi mãi hay không. </p>
+                        <button class="featured-button">Xem ngay</button>
+                    </div>
+                </form>
                 <video id="comp-jd8sqvtk_video" class="K8MSra video-banner" role="presentation" crossorigin="anonymous"
                     playsinline="movie-detail.html" preload="auto" muted loop tabindex="-1" autoplay start="30"
-                    src="https://imdb-video.media-imdb.com/vi2259535641/1434659607842-pgv4ql-1689107227226.mp4?Expires=1690602152&Signature=lIIVtSl4Xc3VJeWov27aIAv38guaz5~pWSqdu7UdMRXPch2WaOZX-3eMjh0wcARuMbA5PzToW-d7rPMvDHzuzgrK6rSkNYtvmW5J2ItkCszHiiP14Uom9AQudV3c2FBpOOI0WtMqE1JqmnAP1IOehtr-Z6~TZaw9VSstxv8zTRwiwsPbdxLaP6g42wBBe8m03Pt678DGeau1eqDEf8w9wa-X9Xh1pNqYEveFlSUrSw6Ec5XDstD9Qp8noSTkkweHxuEbaYiXRSQYZj4IUMxtI4goAYdZX5XGxjyjpIATv9~msLnbvl-b5XdyfQfDyOmGfVUpKanlocqzzNMAPOwEgQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA">
+                    src="https://imdb-video.media-imdb.com/vi2259535641/1434659607842-pgv4ql-1689107227226.mp4?Expires=1690438510&Signature=IqUyhFd9hbpVH-gZD~ALXx9rLMvgBLEa4kZcMc9M3vF7HpDB7bPk6C-aZOtneq1ngvfxRwtMWIyXx6HFurWCK5DonEfG7AyfWXcdSX9bom4~ZZ4r1KP4iWi6P24dIP8m6ekKKcG4ustDWd2IM~5v~AAfzjmp~roO48N8c2GPmvhNhYoDL~3fB9MQmSSvW9ECMDCV~c8rU6m5pP-xesi6NOShPORos2FQj8sywIXdEK24fG~G-tYrbAo6c6BG8XjYHdXLwmYQ8nuoMtQLstiVZ0INd4nTk-dukVtw08DIS29xCq7GLAJxQAuJJn6EcDn~-PWW4AnMDF~NGfLdogvyXA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA">
                 </video>
-
-                <div class="movie-list-container" id="phim">
+                <div class="movie-list-container">
                     <h1 class="movie-list-title">Phim đang chiếu</h1>
                     <div class="movie-list-wrapper">
                         <div class="movie-list">
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://i.pinimg.com/564x/6d/df/b0/6ddfb0dbefe3007464a931b5c906d1e5.jpg"
-                                    alt="movie-detail.html">
-                                <span class="movie-list-item-title">THE GANGS THE COP THE DEVIL</span>
-                                <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
-                            </div>
-                            <div class="movie-list-item">
-                                <img class="movie-list-item-img"
-                                    src="https://media.licdn.com/dms/image/D5612AQG1hfdBMhPZQw/article-inline_image-shrink_1500_2232/0/1688391661013?e=1695859200&v=beta&t=_A2He3426gJp0PQq741ieJHRp_ZXDKxICV7kaNlsnz8"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
                                 <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://nld.mediacdn.vn/thumb_w/684/2020/10/17/emtrinhcastingall-1602898336448445771253.jpg"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
-                                <span class="movie-list-item-title">EM VÀ TRỊNH</span>
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://i.pinimg.com/564x/00/8f/54/008f546f025742058580b94d5cc52459.jpg"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
-                                <span class="movie-list-item-title">LITTLE WOMEN</span>
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button  onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://i.pinimg.com/564x/a5/dd/09/a5dd09633e5c1bf6bf110e580ff974e8.jpg"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
-                                <span class="movie-list-item-title">About Time</span>
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://i.pinimg.com/564x/66/42/84/66428407a16f9a7f2d07954b70fddce1.jpg"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
-                                <span class="movie-list-item-title">After We Collided</span>
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
+                                    alt="movie-detail.html">
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
+                                <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                         </div>
                         <i class="fas fa-chevron-right arrow"></i>
                     </div>
                 </div>
-
                 <div class="movie-list-container">
                     <h1 class="movie-list-title">Phim sắp công chiếu</h1>
                     <div class="movie-list-wrapper">
                         <div class="movie-list">
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://i.pinimg.com/564x/69/8f/ed/698fed9182e1a389a005be886aff68fe.jpg"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
-                                <span class="movie-list-item-title">Mắt BiếC</span>
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://i.pinimg.com/564x/ff/51/94/ff51944843c14ad15ea1fc1056ee3bce.jpg"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
-                                <span class="movie-list-item-title">Your Name</span>
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://i.pinimg.com/564x/a3/fe/19/a3fe1953058d51294b8c061a9f76ead7.jpg"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
-                                <span class="movie-list-item-title">la la land</span>
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://cinestar.com.vn/pictures/Cinestar/07-2023/insidious-quy-quyet-cua-do-vo-dinh.jpg"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
-                                <span class="movie-list-item-title">Quỷ quyệt:5</span>
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://upload.wikimedia.org/wikipedia/vi/c/c4/Thatsontamlinhphim.jpg"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
-                                <span class="movie-list-item-title">Thất Sơn Tâm Linh</span>
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                             <div class="movie-list-item">
                                 <img class="movie-list-item-img"
-                                    src="https://i.pinimg.com/564x/7b/20/60/7b2060adf9cb7dd2613aefced8528e77.jpg"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
                                     alt="movie-detail.html">
-                                <span class="movie-list-item-title">Spirited Away Movie Poster</span>
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
                                 <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
-                                <button onclick="location.href='login.html';" class="movie-list-item-button">ĐẶT VÉ</button>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
                             </div>
                         </div>
                         <i class="fas fa-chevron-right arrow"></i>
                     </div>
                 </div>
-
                 <div class="featured-content">
                     <img class="featured-title-discount"
                         src="https://cdn.galaxycine.vn/media/2023/4/27/2048wx682h_1682565645404.jpg"
                         alt="movie-detail.html">
                 </div>
-
-                <!-- Khuyến Mãi-->
-                <section class="movie-list-page-section  " id="khuyenmai">
-                    <div class="movie-list-container">
-                        <div class="text-center">
-                            <h2 >Tin Khuyến Mãi</h2>
-                            <h3 class="section-subheading text-muted">
-                                Thông Tin Khuyến Mãi Đang Được Áp Dụng
-                            </h3>
+                <div class="movie-list-container">
+                    <h1 class="movie-list-title">Phim top</h1>
+                    <div class="movie-list-wrapper">
+                        <div class="movie-list">
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
+                                    alt="movie-detail.html">
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
+                                <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
+                                    alt="movie-detail.html">
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
+                                <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
+                                    alt="movie-detail.html">
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
+                                <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
+                                    alt="movie-detail.html">
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
+                                <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
+                                    alt="movie-detail.html">
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
+                                <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                    src="https://cdn.galaxycine.vn/media/2023/4/27/450x300_1682565516691.jpg"
+                                    alt="movie-detail.html">
+                                <span class="movie-list-item-title">Con Nhót mót chồng</span>
+                                <a href="movie-detail.html" class="movie-list-item-button-detail">Chi tiết</a>
+                                <button class="movie-list-item-button">ĐẶT VÉ</button>
+                            </div>
                         </div>
-                        <div class="row text-center">
-                            <div class="col-md-4">
-                                <a href="#">
-                                    <img class="img-fluid" src="img/khuyenmai/khuyenmai1.jpg" alt="..." />
-                                </a>
-
-                                <h2 class="my-3">Mẹo Tiết Kiệm</h2>
-                                <p class="text-muted">
-                                    Đi Đủ Vui Cực Lớn – Đi Đông Được Khuyến Mãi
-                                </p>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="#">
-                                    <img class="img-fluid" src="img/khuyenmai/khuyenmai2.jpg" alt="..." />
-                                </a>
-
-                                <h2 class="my-3">Milo Siêu Khủng Giá Chỉ 19K!</h2>
-                                <p class="text-muted">
-                                    Ngày ngọt ngào – Milo Day mà Galaxy Cinema dành tặng các Stars sẽ
-                                    trở lại vào tháng 6 này!
-                                </p>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="#">
-                                    <img class="img-fluid" src="img/khuyenmai/khuyenmai3.jpg" alt="..." />
-                                </a>
-
-                                <h2 class="my-3">Happy Day</h2>
-                                <p class="text-muted">
-                                    Vào thứ 3 hàng tuần – Happy Day, Galaxy Cinema dành tặng giá vé ưu
-                                    đãi CHỈ TỪ 50K!
-                                </p>
-                            </div>
-                        </div>
+                        <i class="fas fa-chevron-right arrow"></i>
                     </div>
-                </section>
+                </div>
             </div>
         </div>
 
-
-
-        <footer class="footer-section" id="thongtin">
+        <footer class="footer-section">
             <div class="container">
                 <div class="footer-cta pt-5 pb-5">
                     <div class="row">
@@ -361,12 +364,11 @@
             var video = document.getElementById('comp-jd8sqvtk_video');
 
             video.addEventListener('loadedmetadata', function () {
-                // Bắt đầu phát video từ giây thứ 47
-                video.currentTime = 47;
+                // Bắt đầu phát video từ giây thứ 30
+                video.currentTime = 50;
                 video.play();
             });
         </script>
-
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
