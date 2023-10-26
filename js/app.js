@@ -29,7 +29,7 @@ arrows.forEach((arrow, i) => {
 
 const ball = document.querySelector(".toggle-ball");
 const items = document.querySelectorAll(
-  ".footer-section,.container-home,.movie-list-title,.movie-list-container-descriptionfirm,.movie-list-item-detail-star,.movie-list-item-detail-info,.navbar-container,.sidebar,.left-menu-icon,.toggle,.movie-list-item-detail-title,.menu-container,.movie-list-item,.movie-link-display,.movie-link-display,.movie-list-container,.profile-text-container,.page-section,.text-center,.section-heading,.section-subheading"
+  ".footer-section,.container-home,.movie-list-title,.movie-list-container-descriptionfirm,.movie-list-item-detail-star,.movie-list-item-detail-info,.navbar-container,.sidebar,.left-menu-icon,.toggle,.movie-list-item-detail-title,.menu-container,.movie-list-item,.movie-link-display,.movie-link-display,.movie-list-container,.profile-container,.profile-text-container,.page-section,.text-center,.section-heading,.section-subheading"
 );
 
 ball.addEventListener("click", () => {
@@ -38,3 +38,10 @@ ball.addEventListener("click", () => {
   });
   ball.classList.toggle("active");
 });
+
+
+ // confirmLogout
+ function confirmLogout() {
+  var confirmation = confirm("Bạn có chắc muốn logout?");
+  return confirmation;
+}

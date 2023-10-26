@@ -657,11 +657,7 @@
   transform: translateX(-20px);
 }
 
-@media only screen and (max-width: 940px) {
-  .menu-container {
-    display: none;
-  }
-}
+
 
 
 
@@ -983,10 +979,28 @@ ul {
 
 
 .profile-text a {
-  color: #000;
+  color: #a32919;
 }
 
 
 .profile-text a:hover {
   color: red;
+}
+
+
+
+/* responsive */
+@media only screen and (max-width: 940px) {
+  .menu-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1232px) {
+  .featured-content-banner {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    z-index: 500;
+}
 }
